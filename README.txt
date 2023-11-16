@@ -1,10 +1,15 @@
 GameDoc file: https://docs.google.com/document/d/1Acvv1_Qo5ULFgnNSELUJTlE4iSAgsawNBOUR5ZPp31I/edit
 Common Git Commands:
-	To create a new branch: git branch nameOfBranchHere
-	To swap to a branch: git checkout nameOfBranchHere
-	To add changes to the stage: git add -A
-	To commit changes: git commit -m "brief word or phrase describing changes here"
-	To push changes to GitHub: git push origin nameOfBranchHere
+	To create a new branch: 
+		git branch nameOfBranchHere
+	To swap to a branch: git 
+		checkout nameOfBranchHere
+	To add changes to the stage: 
+		git add -A
+	To commit changes: 
+		git commit -m "brief word or phrase describing changes here"
+	To push changes to GitHub: 
+		git push origin nameOfBranchHere
 	To pull changes and merge them with your file:
 		git fetch
 		git merge origin/nameOfBranchHere
