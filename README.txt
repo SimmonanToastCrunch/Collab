@@ -9,6 +9,10 @@ Common Git Commands:
 		git fetch
 		git merge origin/nameOfBranchHere
 		NOTE: you must do this with each branch that you want a copy of. For example, if you want a copy of my Testing branch, you need to create a Testing branch, then git fetch and git merge origin/Testing to get a copy of that branch.
+
+	To UPDATE the branch you're working on to the latest changes:
+		(Ensure you're currently on the branch you're working on, and NOT the main branch)
+		git rebase origin/main
 	
 	REMOVAL COMMANDS
 	To remove UNSTAGED changes:
